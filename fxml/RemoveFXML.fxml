@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="302.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RemoveFXMLController">
+   <children>
+      <JFXTextField fx:id="EmpId" labelFloat="true" layoutX="133.0" layoutY="153.0" prefHeight="25.0" prefWidth="254.0" promptText="Employee ID">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="remove" layoutX="133.0" layoutY="232.0" onAction="#removeMethod" text="Remove">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutY="6.0" prefHeight="50.0" prefWidth="519.0" text="Remove Record From Table">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Back" layoutX="260.0" layoutY="232.0" onAction="#backMethod" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
